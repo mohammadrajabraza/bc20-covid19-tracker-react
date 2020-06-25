@@ -25,7 +25,7 @@ jobs:
         run: yarn build
 
       - name: INSTALL SURGE
-        run: npm install --global SURGE
+        run: npm install --global surge
 
       - name: DEPLOY APP TO SURGE
         run: surge ./build covid-tracker-rajabraza.surge.sh --token ${{ secrets.SURGE_TOKEN }}
