@@ -17,7 +17,7 @@ export const fetchData = async (country) => {
     } catch (error) {
         console.log(error);
     }
-}
+};
 
 export const fetchDailyData = async () => {
     try {
@@ -33,7 +33,7 @@ export const fetchDailyData = async () => {
     } catch (error) {
         console.log(error);
     }
-}
+};
 
 export const fetchCountries = async () => {
     try {
